@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "pais":"México",
+        "moneda":"Peso Mexicano",
+        "val": "MXN"
+    },
+    {
+        "id":2,
+        "pais":"EUA",
+        "moneda":"Dolar Estadounidense",
+        "val": "USD"
+    },
+    {
+        "id":3,
+        "pais":"Inglaterra",
+        "moneda":"Libras",
+        "val": "GBP"
+    },
+    {
+        "id":4,
+        "pais":"Europa",
+        "moneda":"Euros",
+        "val": "EUR"
+    }
+]
