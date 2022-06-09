@@ -1,4 +1,5 @@
 import {mostarAlerta} from './funciones.js'
+import {nuevoCliente} from './API.js'
 
 (function(){
     const formulario = document.querySelector('#formulario')
@@ -6,26 +7,28 @@ import {mostarAlerta} from './funciones.js'
     
     function validarCliente(e){
         e.preventDefault()
-        const nombre = document.getElementById('nombre')
-        const email = document.getElementById('email')
-        const telefono = document.getElementById('telefono')
-        const empresa = document.getElementById('empresa')
+        const nombre = document.getElementById('nombre').value
+        const email = document.getElementById('email').value
+        const telefono = document.getElementById('telefono').value
+        const empresa = document.getElementById('empresa').value
     
-        const objValidation = {
+        const cliente = {
             nombre,
             email,
             telefono,
             empresa
         }
     
-        if(!validaCampos(objValidation)){
+        if(validaCampos(cliente)){
             mostarAlerta("Los campos son necesario", "error")
             return
         }
         console.log('Validacion correcta')
+        nuevoCliente(cliente)
     }
     function validaCampos(obj){
-        return Object.values(obj).every(input => input === '')
+
+        return !Object.values(obj).every(input => input !== '')
     }
 })();
 
