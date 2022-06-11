@@ -1,0 +1,2 @@
+npm i json-server
+json-server "nombre del archivo json como base" -p "puerto"

@@ -16,3 +16,8 @@ export function mostarAlerta(msg, type){
         }  
     }   
 }
+
+export function validaCampos(obj){
+
+    return !Object.values(obj).every(input => input !== '')
+}

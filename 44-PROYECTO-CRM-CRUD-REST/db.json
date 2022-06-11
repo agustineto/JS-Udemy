@@ -1,18 +1,32 @@
 {
   "clientes": [
     {
-      "nombre": "Juan NUEVO!",
+      "nombre": "Juan PRUEBAS",
       "email": "correo2@correo.com",
       "telefono": "12",
-      "empresa": "12212",
+      "empresa": "Udemy",
       "id": 26
     },
     {
-      "nombre": "JUAN",
+      "nombre": "Juan NUEVO!!!!",
       "email": "agustinzavalat@gmail.com",
       "telefono": "34343434",
       "empresa": "Udemy",
       "id": 27
+    },
+    {
+      "nombre": "Juan NUEVO!!!!",
+      "email": "agustinzavalat@gmail.com",
+      "telefono": "555656565",
+      "empresa": "Youtube",
+      "id": 28
+    },
+    {
+      "nombre": "JAVASCRIPT",
+      "email": "agustinzavalat@gmail.com",
+      "telefono": "90909090",
+      "empresa": "Youtube",
+      "id": 29
     }
   ]
 }

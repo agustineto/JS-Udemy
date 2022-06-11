@@ -1,4 +1,4 @@
-import {mostarAlerta} from './funciones.js'
+import {mostarAlerta, validaCampos} from './funciones.js'
 import {nuevoCliente} from './API.js'
 
 (function(){
@@ -26,10 +26,7 @@ import {nuevoCliente} from './API.js'
         console.log('Validacion correcta')
         nuevoCliente(cliente)
     }
-    function validaCampos(obj){
-
-        return !Object.values(obj).every(input => input !== '')
-    }
+  
 })();
 
 
